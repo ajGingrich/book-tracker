@@ -7,8 +7,7 @@ import HelloWorldApp from './HelloWorldApp';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>{`${titleText} - ${anotherTest}`}</Text>
-      <HelloWorldApp />
+      <HelloWorldApp style={styles} />
     </View>
   );
 }
@@ -19,5 +18,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    flex: 1,
   },
 });
