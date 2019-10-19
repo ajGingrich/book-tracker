@@ -6,10 +6,11 @@ import {
   ScrollView,
   StyleSheet,
   TextInput,
-  TouchableHighlight
+  TouchableHighlight,
+  Button,
 } from 'react-native';
 
-import { titleText, anotherTest } from './constants/constants';
+import { titleText, anotherTest } from '../constants/constants';
 
 const styles = StyleSheet.create({
   bigGreen: {
@@ -46,13 +47,12 @@ const styles = StyleSheet.create({
   },
 });
 
-const HelloWorldApp = ({ style }) => {
+const ProfileScreen = ({ navigation }) => {
   const [showImage, setShowImage] = useState(false);
   const [text, setText] = useState('');
   const toggleImage = () => setShowImage(prev => !prev);
-  const pic = {
-    uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg',
-  }
+  const pic = { uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg' }
+  const { name, style } = navigation.state.params || {};
 
   const renderButton = () => {
     return (
@@ -72,13 +72,14 @@ const HelloWorldApp = ({ style }) => {
           value={text}
         />
         {renderButton()}
+        <Button
+          title="Home"
+          onPress={() => navigation.push('Home')}
+        />
       </View>
-      <View style={[style.container, styles.view]}>
       <View>
-      </View>
         {showImage && <Image source={pic} style={{width: 193, height: 110}}/>}
         {!showImage && <Text style={[styles.bigGreen, styles.red]}>There is no banana</Text>}
-
         <Text style={{padding: 10, fontSize: 42}}>
           {text.split(' ').map(word => word && '😎').join(' ')}
         </Text>
@@ -87,4 +88,4 @@ const HelloWorldApp = ({ style }) => {
   );
 }
 
-export default HelloWorldApp;
+export default ProfileScreen;
