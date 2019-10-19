@@ -1,10 +1,12 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import {
   Text,
   View,
   Image,
-  Button,
+  ScrollView,
   StyleSheet,
+  TextInput,
+  TouchableHighlight
 } from 'react-native';
 
 import { titleText, anotherTest } from './constants/constants';
@@ -22,7 +24,7 @@ const styles = StyleSheet.create({
   },
   view: {
     flex: 2,
-    backgroundColor: 'steelblue',
+    backgroundColor: '#D3D3D3',
   },
   title: {
     color: 'orange',
@@ -33,36 +35,55 @@ const styles = StyleSheet.create({
     backgroundColor: 'skyblue',
   },
   button: {
-    color: 'black',
+    color: '#fff',
+    backgroundColor: '#428BC8',
+    height: 40,
+    width: 150,
+    borderRadius: 5,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
 
 const HelloWorldApp = ({ style }) => {
   const [showImage, setShowImage] = useState(false);
+  const [text, setText] = useState('');
   const toggleImage = () => setShowImage(prev => !prev);
   const pic = {
     uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg',
   }
+
+  const renderButton = () => {
+    return (
+      <TouchableHighlight onPress={() => toggleImage()}>
+        <Text style={styles.button}>toggle banana image</Text>
+      </TouchableHighlight>
+    );
+  }
+
   return (
-    <View>
+    <ScrollView contentContainerStyle={style.container} maximumZoomScale={10} >
       <View style={[style.container, styles.textWrapper]}>
-        <Text style={styles.title}>{`${titleText} - ${anotherTest}`}</Text>
+        <TextInput
+          style={{ height: 40, width: 150, backgroundColor: 'white', marginBottom: 30 }}
+          placeholder="Type here to translate!"
+          onChangeText={(text) => setText(text)}
+          value={text}
+        />
+        {renderButton()}
       </View>
       <View style={[style.container, styles.view]}>
       <View>
       </View>
         {showImage && <Image source={pic} style={{width: 193, height: 110}}/>}
         {!showImage && <Text style={[styles.bigGreen, styles.red]}>There is no banana</Text>}
-        <Button
-         title="toggle banana image"
-         onPress={() => toggleImage()}
-         color={'black'}
-         style={styles.button}
-        />
-        <Text numberOfLines={5} style={styles.bigGreen}>Sample styling test</Text>
-      </View>
 
-    </View>
+        <Text style={{padding: 10, fontSize: 42}}>
+          {text.split(' ').map(word => word && '😎').join(' ')}
+        </Text>
+      </View>
+    </ScrollView>
   );
 }
 
