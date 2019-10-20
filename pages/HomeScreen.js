@@ -3,6 +3,7 @@ import {
   Button,
   StyleSheet,
   View,
+  Text,
 } from 'react-native';
 
 const styles = StyleSheet.create({
@@ -16,11 +17,9 @@ const styles = StyleSheet.create({
 });
 
 const HomeScreen = ({ navigation }) => {
-  const navigationOptions = { title: 'Welcome' };
-  const { navigate } = navigation || {};
-
-  return (
-    <View>
+  const navigationOptions = {
+    headerTitle: () => <div>Book Stack</div>,
+    headerRight: () => (
       <Button
         title="Go to your profile"
         onPress={() => navigate('Profile', {
@@ -28,6 +27,13 @@ const HomeScreen = ({ navigation }) => {
           style: styles,
         })}
       />
+    ),
+  };
+  const { navigate } = navigation || {};
+
+  return (
+    <View>
+      <Text>Home</Text>
     </View>
   );
 }
