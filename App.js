@@ -17,7 +17,6 @@ const TabNavigator = createMaterialTopTabNavigator({
   Connect: { screen: ConnectScreen },
   Profile: { screen: ProfileScreen },
 }, {
-  // tabBarComponent: props => <Header {...props} />,
   inbitialRouteName: 'Home',
   tabBarOptions: {
     activeTintColor: '#F44336',

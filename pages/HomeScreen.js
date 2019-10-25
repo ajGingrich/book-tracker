@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Button,
   StyleSheet,
   View,
   Text,
 } from 'react-native';
+import firebase from 'react-native-firebase'
 
 const styles = StyleSheet.create({
   container: {
@@ -17,23 +18,18 @@ const styles = StyleSheet.create({
 });
 
 const HomeScreen = ({ navigation }) => {
-  // const navigationOptions = {
-  //   headerTitle: () => <div>Book Stack</div>,
-  //   headerRight: () => (
-  //     <Button
-  //       title="Go to your profile"
-  //       onPress={() => navigate('Profile', {
-  //         name: 'Jane',
-  //         style: styles,
-  //       })}
-  //     />
-  //   ),
-  // };
-  const { navigate } = navigation || {};
+  const [currentUser, setCurrentUser] = useState(null);
+
+  useEffect(() => {
+    const { currentUser } = firebase.auth();
+    setState(currentUser);
+  }, [])
 
   return (
-    <View>
-      <Text>Home</Text>
+    <View style={styles.container}>
+      <Text>
+        Hi {currentUser && currentUser.email}!
+      </Text>
     </View>
   );
 }
