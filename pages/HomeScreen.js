@@ -17,18 +17,18 @@ const styles = StyleSheet.create({
 });
 
 const HomeScreen = ({ navigation }) => {
-  const navigationOptions = {
-    headerTitle: () => <div>Book Stack</div>,
-    headerRight: () => (
-      <Button
-        title="Go to your profile"
-        onPress={() => navigate('Profile', {
-          name: 'Jane',
-          style: styles,
-        })}
-      />
-    ),
-  };
+  // const navigationOptions = {
+  //   headerTitle: () => <div>Book Stack</div>,
+  //   headerRight: () => (
+  //     <Button
+  //       title="Go to your profile"
+  //       onPress={() => navigate('Profile', {
+  //         name: 'Jane',
+  //         style: styles,
+  //       })}
+  //     />
+  //   ),
+  // };
   const { navigate } = navigation || {};
 
   return (
