@@ -7,10 +7,24 @@ target 'BookTracker' do
 
   # Pods for BookTracker
   pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
+	pod 'React', :path => '../node_modules/react-native'
+	pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+	pod 'Folly', :podspec => "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  
+	# add the Firebase pod for Google Analytics
+	pod 'Firebase/Analytics'
 
   target 'BookTrackerTests' do
     inherit! :search_paths
     # Pods for testing
+  end
+	
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      if target.name == "React"
+        target.remove_from_project
+      end
+    end
   end
 
 end
