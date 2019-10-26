@@ -11,7 +11,7 @@ const ConnectScreen = ({ navigation }) => {
 
   return (
     <View>
-      <Text>connect</Text>
+      <Text>connect123</Text>
     </View>
   );
 }

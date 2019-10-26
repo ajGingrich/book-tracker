@@ -56,27 +56,5 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSCalendarsUsageDescription</key>
-	<string>Allow bookTrader to access your calendar</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Allow bookTrader to use the camera</string>
-	<key>NSContactsUsageDescription</key>
-	<string>Allow bookTrader experiences to access your contacts</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Allow bookTrader to use your location</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Allow bookTrader to use your location</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Allow bookTrader to use your location</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Allow bookTrader to access your microphone</string>
-	<key>NSMotionUsageDescription</key>
-	<string>Allow bookTrader to access your device's accelerometer</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Give bookTrader periences permission to save photos</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Give bookTrader periences permission to access your photos</string>
-	<key>NSRemindersUsageDescription</key>
-	<string>Allow bookTrader to access your reminders</string>
 </dict>
 </plist>

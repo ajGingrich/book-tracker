@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Demangle.cpp \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Demangle.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/FBString.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CppAttributes.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Portability.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Config.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CPortability.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Traits.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/Hash.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Utility.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/ApplyTuple.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/Invoke.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Preprocessor.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/SpookyHashV1.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/SpookyHashV2.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Bits.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ConstexprMath.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Assume.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Builtins.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Exception.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/memory/Malloc.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/memory/detail/MallocImpl.h \
+  /Users/andrew.gingrich/storage/projects/book-tracker/node_modules/react-native/third-party/folly-2018.10.22.00/folly/detail/Demangle.h
