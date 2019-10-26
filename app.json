@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "youSeek",
-    "slug": "you-seek",
+    "name": "bookTracker",
+    "slug": "book-tracker",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -28,6 +27,6 @@
     },
     "entryPoint": "node_modules/expo/AppEntry.js"
   },
-  "displayName": "bookTrader",
+  "displayName": "bookTracker",
   "name": "BookTracker"
 }
