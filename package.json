@@ -5,6 +5,7 @@
     "ios": "react-native run-ios"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^6.0.3",
     "mem": "4.0.0",
     "react": "16.8.3",
     "react-dom": "16.8.3",

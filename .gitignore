@@ -70,3 +70,6 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# firebase perhaps temporary
+android/app/google-services.json
