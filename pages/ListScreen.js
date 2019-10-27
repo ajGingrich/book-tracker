@@ -1,7 +1,5 @@
 import React from 'react';
 import {
-  Button,
-  StyleSheet,
   View,
   Text,
 } from 'react-native';
@@ -14,6 +12,6 @@ const ListScreen = ({ navigation }) => {
       <Text>lists</Text>
     </View>
   );
-}
+};
 
 export default ListScreen;

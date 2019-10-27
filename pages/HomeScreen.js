@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  Button,
   StyleSheet,
   View,
   Text,
@@ -12,7 +11,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    flex: 1,
   },
 });
 
@@ -24,6 +22,6 @@ const HomeScreen = ({ navigation }) => {
       <Text>Home</Text>
     </View>
   );
-}
+};
 
 export default HomeScreen;

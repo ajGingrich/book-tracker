@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { createAppContainer } from 'react-navigation';
 import { createMaterialTopTabNavigator } from 'react-navigation-tabs';
@@ -17,17 +16,16 @@ const TabNavigator = createMaterialTopTabNavigator({
   Connect: { screen: ConnectScreen },
   Profile: { screen: ProfileScreen },
 }, {
-  // tabBarComponent: props => <Header {...props} />,
   inbitialRouteName: 'Home',
   tabBarOptions: {
     activeTintColor: '#F44336',
-  }
+  },
 });
 
 const StackNavigator = createStackNavigator({
   Home: {
     screen: TabNavigator,
-    navigationOptions: { header: () => <Header /> }
+    navigationOptions: { header: <Header /> },
   },
 });
 

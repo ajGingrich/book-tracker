@@ -1,13 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   Text,
   View,
-  Image,
-  ScrollView,
-  StyleSheet,
-  TextInput,
-  TouchableHighlight,
-  Button,
 } from 'react-native';
 
 const ProfileScreen = ({ navigation }) => {
@@ -18,6 +12,6 @@ const ProfileScreen = ({ navigation }) => {
       <Text>Profile</Text>
     </View>
   );
-}
+};
 
 export default ProfileScreen;
