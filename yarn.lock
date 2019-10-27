@@ -9,7 +9,7 @@
   dependencies:
     "@babel/highlight" "^7.0.0"
 
-"@babel/core@^7.0.0", "@babel/core@^7.1.0":
+"@babel/core@^7.0.0":
   version "7.6.2"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/core/-/core-7.6.2.tgz#069a776e8d5e9eefff76236bc8845566bd31dd91"
   integrity sha1-Bpp3bo1enu//diNryIRVZr0x3ZE=
@@ -137,7 +137,7 @@
   dependencies:
     "@babel/types" "^7.0.0"
 
-"@babel/helper-module-transforms@^7.1.0", "@babel/helper-module-transforms@^7.4.4":
+"@babel/helper-module-transforms@^7.4.4":
   version "7.5.5"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/helper-module-transforms/-/helper-module-transforms-7.5.5.tgz#f84ff8a09038dcbca1fd4355661a500937165b4a"
   integrity sha1-+E/4oJA43Lyh/UNVZhpQCTcWW0o=
@@ -244,15 +244,6 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-proposal-async-generator-functions@^7.2.0":
-  version "7.2.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-proposal-async-generator-functions/-/plugin-proposal-async-generator-functions-7.2.0.tgz#b289b306669dce4ad20b0252889a15768c9d417e"
-  integrity sha1-somzBmadzkrSCwJSiJoVdoydQX4=
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/helper-remap-async-to-generator" "^7.1.0"
-    "@babel/plugin-syntax-async-generators" "^7.2.0"
-
 "@babel/plugin-proposal-class-properties@^7.0.0":
   version "7.5.5"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.5.5.tgz#a974cfae1e37c3110e71f3c6a2e48b8e71958cd4"
@@ -260,23 +251,6 @@
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.5.5"
     "@babel/helper-plugin-utils" "^7.0.0"
-
-"@babel/plugin-proposal-decorators@^7.1.0":
-  version "7.6.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.6.0.tgz#6659d2572a17d70abd68123e89a12a43d90aa30c"
-  integrity sha1-ZlnSVyoX1wq9aBI+iaEqQ9kKoww=
-  dependencies:
-    "@babel/helper-create-class-features-plugin" "^7.6.0"
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-syntax-decorators" "^7.2.0"
-
-"@babel/plugin-proposal-dynamic-import@^7.5.0":
-  version "7.5.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-proposal-dynamic-import/-/plugin-proposal-dynamic-import-7.5.0.tgz#e532202db4838723691b10a67b8ce509e397c506"
-  integrity sha1-5TIgLbSDhyNpGxCme4zlCeOXxQY=
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-syntax-dynamic-import" "^7.2.0"
 
 "@babel/plugin-proposal-export-default-from@^7.0.0":
   version "7.5.2"
@@ -286,14 +260,6 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-export-default-from" "^7.2.0"
 
-"@babel/plugin-proposal-json-strings@^7.2.0":
-  version "7.2.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.2.0.tgz#568ecc446c6148ae6b267f02551130891e29f317"
-  integrity sha1-Vo7MRGxhSK5rJn8CVREwiR4p8xc=
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-syntax-json-strings" "^7.2.0"
-
 "@babel/plugin-proposal-nullish-coalescing-operator@^7.0.0":
   version "7.4.4"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-proposal-nullish-coalescing-operator/-/plugin-proposal-nullish-coalescing-operator-7.4.4.tgz#41c360d59481d88e0ce3a3f837df10121a769b39"
@@ -302,7 +268,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-nullish-coalescing-operator" "^7.2.0"
 
-"@babel/plugin-proposal-object-rest-spread@^7.0.0", "@babel/plugin-proposal-object-rest-spread@^7.6.2":
+"@babel/plugin-proposal-object-rest-spread@^7.0.0":
   version "7.6.2"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.6.2.tgz#8ffccc8f3a6545e9f78988b6bf4fe881b88e8096"
   integrity sha1-j/zMjzplRen3iYi2v0/ogbiOgJY=
@@ -310,7 +276,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-object-rest-spread" "^7.2.0"
 
-"@babel/plugin-proposal-optional-catch-binding@^7.0.0", "@babel/plugin-proposal-optional-catch-binding@^7.2.0":
+"@babel/plugin-proposal-optional-catch-binding@^7.0.0":
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-proposal-optional-catch-binding/-/plugin-proposal-optional-catch-binding-7.2.0.tgz#135d81edb68a081e55e56ec48541ece8065c38f5"
   integrity sha1-E12B7baKCB5V5W7EhUHs6AZcOPU=
@@ -326,22 +292,6 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-optional-chaining" "^7.2.0"
 
-"@babel/plugin-proposal-unicode-property-regex@^7.6.2":
-  version "7.6.2"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-proposal-unicode-property-regex/-/plugin-proposal-unicode-property-regex-7.6.2.tgz#05413762894f41bfe42b9a5e80919bd575dcc802"
-  integrity sha1-BUE3YolPQb/kK5pegJGb1XXcyAI=
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/helper-regex" "^7.4.4"
-    regexpu-core "^4.6.0"
-
-"@babel/plugin-syntax-async-generators@^7.2.0":
-  version "7.2.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-syntax-async-generators/-/plugin-syntax-async-generators-7.2.0.tgz#69e1f0db34c6f5a0cf7e2b3323bf159a76c8cb7f"
-  integrity sha1-aeHw2zTG9aDPfiszI78VmnbIy38=
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-
 "@babel/plugin-syntax-class-properties@^7.0.0":
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.2.0.tgz#23b3b7b9bcdabd73672a9149f728cd3be6214812"
@@ -349,14 +299,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-syntax-decorators@^7.2.0":
-  version "7.2.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-syntax-decorators/-/plugin-syntax-decorators-7.2.0.tgz#c50b1b957dcc69e4b1127b65e1c33eef61570c1b"
-  integrity sha1-xQsblX3MaeSxEntl4cM+72FXDBs=
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-
-"@babel/plugin-syntax-dynamic-import@^7.0.0", "@babel/plugin-syntax-dynamic-import@^7.2.0":
+"@babel/plugin-syntax-dynamic-import@^7.0.0":
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.2.0.tgz#69c159ffaf4998122161ad8ebc5e6d1f55df8612"
   integrity sha1-acFZ/69JmBIhYa2OvF5tH1XfhhI=
@@ -374,13 +317,6 @@
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-syntax-flow/-/plugin-syntax-flow-7.2.0.tgz#a765f061f803bc48f240c26f8747faf97c26bf7c"
   integrity sha1-p2XwYfgDvEjyQMJvh0f6+Xwmv3w=
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-
-"@babel/plugin-syntax-json-strings@^7.2.0":
-  version "7.2.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.2.0.tgz#72bd13f6ffe1d25938129d2a186b11fd62951470"
-  integrity sha1-cr0T9v/h0lk4Ep0qGGsR/WKVFHA=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
@@ -426,14 +362,14 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-arrow-functions@^7.0.0", "@babel/plugin-transform-arrow-functions@^7.2.0":
+"@babel/plugin-transform-arrow-functions@^7.0.0":
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-arrow-functions/-/plugin-transform-arrow-functions-7.2.0.tgz#9aeafbe4d6ffc6563bf8f8372091628f00779550"
   integrity sha1-mur75Nb/xlY7+Pg3IJFijwB3lVA=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-async-to-generator@^7.0.0", "@babel/plugin-transform-async-to-generator@^7.5.0":
+"@babel/plugin-transform-async-to-generator@^7.0.0":
   version "7.5.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-async-to-generator/-/plugin-transform-async-to-generator-7.5.0.tgz#89a3848a0166623b5bc481164b5936ab947e887e"
   integrity sha1-iaOEigFmYjtbxIEWS1k2q5R+iH4=
@@ -442,14 +378,14 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/helper-remap-async-to-generator" "^7.1.0"
 
-"@babel/plugin-transform-block-scoped-functions@^7.0.0", "@babel/plugin-transform-block-scoped-functions@^7.2.0":
+"@babel/plugin-transform-block-scoped-functions@^7.0.0":
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-block-scoped-functions/-/plugin-transform-block-scoped-functions-7.2.0.tgz#5d3cc11e8d5ddd752aa64c9148d0db6cb79fd190"
   integrity sha1-XTzBHo1d3XUqpkyRSNDbbLef0ZA=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-block-scoping@^7.0.0", "@babel/plugin-transform-block-scoping@^7.6.2":
+"@babel/plugin-transform-block-scoping@^7.0.0":
   version "7.6.2"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.6.2.tgz#96c33ab97a9ae500cc6f5b19e04a7e6553360a79"
   integrity sha1-lsM6uXqa5QDMb1sZ4Ep+ZVM2Cnk=
@@ -457,7 +393,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     lodash "^4.17.13"
 
-"@babel/plugin-transform-classes@^7.0.0", "@babel/plugin-transform-classes@^7.5.5":
+"@babel/plugin-transform-classes@^7.0.0":
   version "7.5.5"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-classes/-/plugin-transform-classes-7.5.5.tgz#d094299d9bd680a14a2a0edae38305ad60fb4de9"
   integrity sha1-0JQpnZvWgKFKKg7a44MFrWD7Tek=
@@ -471,37 +407,21 @@
     "@babel/helper-split-export-declaration" "^7.4.4"
     globals "^11.1.0"
 
-"@babel/plugin-transform-computed-properties@^7.0.0", "@babel/plugin-transform-computed-properties@^7.2.0":
+"@babel/plugin-transform-computed-properties@^7.0.0":
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-computed-properties/-/plugin-transform-computed-properties-7.2.0.tgz#83a7df6a658865b1c8f641d510c6f3af220216da"
   integrity sha1-g6ffamWIZbHI9kHVEMbzryICFto=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-destructuring@^7.0.0", "@babel/plugin-transform-destructuring@^7.6.0":
+"@babel/plugin-transform-destructuring@^7.0.0":
   version "7.6.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.6.0.tgz#44bbe08b57f4480094d57d9ffbcd96d309075ba6"
   integrity sha1-RLvgi1f0SACU1X2f+82W0wkHW6Y=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-dotall-regex@^7.6.2":
-  version "7.6.2"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-dotall-regex/-/plugin-transform-dotall-regex-7.6.2.tgz#44abb948b88f0199a627024e1508acaf8dc9b2f9"
-  integrity sha1-RKu5SLiPAZmmJwJOFQisr43Jsvk=
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/helper-regex" "^7.4.4"
-    regexpu-core "^4.6.0"
-
-"@babel/plugin-transform-duplicate-keys@^7.5.0":
-  version "7.5.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-duplicate-keys/-/plugin-transform-duplicate-keys-7.5.0.tgz#c5dbf5106bf84cdf691222c0974c12b1df931853"
-  integrity sha1-xdv1EGv4TN9pEiLAl0wSsd+TGFM=
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-
-"@babel/plugin-transform-exponentiation-operator@^7.0.0", "@babel/plugin-transform-exponentiation-operator@^7.2.0":
+"@babel/plugin-transform-exponentiation-operator@^7.0.0":
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-exponentiation-operator/-/plugin-transform-exponentiation-operator-7.2.0.tgz#a63868289e5b4007f7054d46491af51435766008"
   integrity sha1-pjhoKJ5bQAf3BU1GSRr1FDV2YAg=
@@ -517,14 +437,14 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-flow" "^7.2.0"
 
-"@babel/plugin-transform-for-of@^7.0.0", "@babel/plugin-transform-for-of@^7.4.4":
+"@babel/plugin-transform-for-of@^7.0.0":
   version "7.4.4"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-for-of/-/plugin-transform-for-of-7.4.4.tgz#0267fc735e24c808ba173866c6c4d1440fc3c556"
   integrity sha1-Amf8c14kyAi6FzhmxsTRRA/DxVY=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-function-name@^7.0.0", "@babel/plugin-transform-function-name@^7.4.4":
+"@babel/plugin-transform-function-name@^7.0.0":
   version "7.4.4"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-function-name/-/plugin-transform-function-name-7.4.4.tgz#e1436116abb0610c2259094848754ac5230922ad"
   integrity sha1-4UNhFquwYQwiWQlISHVKxSMJIq0=
@@ -532,30 +452,21 @@
     "@babel/helper-function-name" "^7.1.0"
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-literals@^7.0.0", "@babel/plugin-transform-literals@^7.2.0":
+"@babel/plugin-transform-literals@^7.0.0":
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-literals/-/plugin-transform-literals-7.2.0.tgz#690353e81f9267dad4fd8cfd77eafa86aba53ea1"
   integrity sha1-aQNT6B+SZ9rU/Yz9d+r6hqulPqE=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-member-expression-literals@^7.0.0", "@babel/plugin-transform-member-expression-literals@^7.2.0":
+"@babel/plugin-transform-member-expression-literals@^7.0.0":
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-member-expression-literals/-/plugin-transform-member-expression-literals-7.2.0.tgz#fa10aa5c58a2cb6afcf2c9ffa8cb4d8b3d489a2d"
   integrity sha1-+hCqXFiiy2r88sn/qMtNiz1Imi0=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-modules-amd@^7.5.0":
-  version "7.5.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-modules-amd/-/plugin-transform-modules-amd-7.5.0.tgz#ef00435d46da0a5961aa728a1d2ecff063e4fb91"
-  integrity sha1-7wBDXUbaCllhqnKKHS7P8GPk+5E=
-  dependencies:
-    "@babel/helper-module-transforms" "^7.1.0"
-    "@babel/helper-plugin-utils" "^7.0.0"
-    babel-plugin-dynamic-import-node "^2.3.0"
-
-"@babel/plugin-transform-modules-commonjs@^7.0.0", "@babel/plugin-transform-modules-commonjs@^7.4.4", "@babel/plugin-transform-modules-commonjs@^7.6.0":
+"@babel/plugin-transform-modules-commonjs@^7.0.0":
   version "7.6.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.6.0.tgz#39dfe957de4420445f1fcf88b68a2e4aa4515486"
   integrity sha1-Od/pV95EIERfH8+ItoouSqRRVIY=
@@ -565,37 +476,6 @@
     "@babel/helper-simple-access" "^7.1.0"
     babel-plugin-dynamic-import-node "^2.3.0"
 
-"@babel/plugin-transform-modules-systemjs@^7.5.0":
-  version "7.5.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-modules-systemjs/-/plugin-transform-modules-systemjs-7.5.0.tgz#e75266a13ef94202db2a0620977756f51d52d249"
-  integrity sha1-51JmoT75QgLbKgYgl3dW9R1S0kk=
-  dependencies:
-    "@babel/helper-hoist-variables" "^7.4.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
-    babel-plugin-dynamic-import-node "^2.3.0"
-
-"@babel/plugin-transform-modules-umd@^7.2.0":
-  version "7.2.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-modules-umd/-/plugin-transform-modules-umd-7.2.0.tgz#7678ce75169f0877b8eb2235538c074268dd01ae"
-  integrity sha1-dnjOdRafCHe46yI1U4wHQmjdAa4=
-  dependencies:
-    "@babel/helper-module-transforms" "^7.1.0"
-    "@babel/helper-plugin-utils" "^7.0.0"
-
-"@babel/plugin-transform-named-capturing-groups-regex@^7.6.2":
-  version "7.6.2"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-named-capturing-groups-regex/-/plugin-transform-named-capturing-groups-regex-7.6.2.tgz#c1ca0bb84b94f385ca302c3932e870b0fb0e522b"
-  integrity sha1-wcoLuEuU84XKMCw5MuhwsPsOUis=
-  dependencies:
-    regexpu-core "^4.6.0"
-
-"@babel/plugin-transform-new-target@^7.4.4":
-  version "7.4.4"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-new-target/-/plugin-transform-new-target-7.4.4.tgz#18d120438b0cc9ee95a47f2c72bc9768fbed60a5"
-  integrity sha1-GNEgQ4sMye6VpH8scryXaPvtYKU=
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-
 "@babel/plugin-transform-object-assign@^7.0.0":
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-object-assign/-/plugin-transform-object-assign-7.2.0.tgz#6fdeea42be17040f119e38e23ea0f49f31968bde"
@@ -603,7 +483,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-object-super@^7.0.0", "@babel/plugin-transform-object-super@^7.5.5":
+"@babel/plugin-transform-object-super@^7.0.0":
   version "7.5.5"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-object-super/-/plugin-transform-object-super-7.5.5.tgz#c70021df834073c65eb613b8679cc4a381d1a9f9"
   integrity sha1-xwAh34NAc8ZethO4Z5zEo4HRqfk=
@@ -611,7 +491,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/helper-replace-supers" "^7.5.5"
 
-"@babel/plugin-transform-parameters@^7.0.0", "@babel/plugin-transform-parameters@^7.4.4":
+"@babel/plugin-transform-parameters@^7.0.0":
   version "7.4.4"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-parameters/-/plugin-transform-parameters-7.4.4.tgz#7556cf03f318bd2719fe4c922d2d808be5571e16"
   integrity sha1-dVbPA/MYvScZ/kySLS2Ai+VXHhY=
@@ -620,7 +500,7 @@
     "@babel/helper-get-function-arity" "^7.0.0"
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-property-literals@^7.0.0", "@babel/plugin-transform-property-literals@^7.2.0":
+"@babel/plugin-transform-property-literals@^7.0.0":
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-property-literals/-/plugin-transform-property-literals-7.2.0.tgz#03e33f653f5b25c4eb572c98b9485055b389e905"
   integrity sha1-A+M/ZT9bJcTrVyyYuUhQVbOJ6QU=
@@ -651,19 +531,12 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-jsx" "^7.2.0"
 
-"@babel/plugin-transform-regenerator@^7.0.0", "@babel/plugin-transform-regenerator@^7.4.5":
+"@babel/plugin-transform-regenerator@^7.0.0":
   version "7.4.5"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.4.5.tgz#629dc82512c55cee01341fb27bdfcb210354680f"
   integrity sha1-Yp3IJRLFXO4BNB+ye9/LIQNUaA8=
   dependencies:
     regenerator-transform "^0.14.0"
-
-"@babel/plugin-transform-reserved-words@^7.2.0":
-  version "7.2.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-reserved-words/-/plugin-transform-reserved-words-7.2.0.tgz#4792af87c998a49367597d07fedf02636d2e1634"
-  integrity sha1-R5Kvh8mYpJNnWX0H/t8CY20uFjQ=
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-transform-runtime@^7.0.0":
   version "7.6.2"
@@ -675,21 +548,21 @@
     resolve "^1.8.1"
     semver "^5.5.1"
 
-"@babel/plugin-transform-shorthand-properties@^7.0.0", "@babel/plugin-transform-shorthand-properties@^7.2.0":
+"@babel/plugin-transform-shorthand-properties@^7.0.0":
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-shorthand-properties/-/plugin-transform-shorthand-properties-7.2.0.tgz#6333aee2f8d6ee7e28615457298934a3b46198f0"
   integrity sha1-YzOu4vjW7n4oYVRXKYk0o7RhmPA=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-spread@^7.0.0", "@babel/plugin-transform-spread@^7.6.2":
+"@babel/plugin-transform-spread@^7.0.0":
   version "7.6.2"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-spread/-/plugin-transform-spread-7.6.2.tgz#fc77cf798b24b10c46e1b51b1b88c2bf661bb8dd"
   integrity sha1-/HfPeYsksQxG4bUbG4jCv2YbuN0=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-sticky-regex@^7.0.0", "@babel/plugin-transform-sticky-regex@^7.2.0":
+"@babel/plugin-transform-sticky-regex@^7.0.0":
   version "7.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-sticky-regex/-/plugin-transform-sticky-regex-7.2.0.tgz#a1e454b5995560a9c1e0d537dfc15061fd2687e1"
   integrity sha1-oeRUtZlVYKnB4NU338FQYf0mh+E=
@@ -697,19 +570,12 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/helper-regex" "^7.0.0"
 
-"@babel/plugin-transform-template-literals@^7.0.0", "@babel/plugin-transform-template-literals@^7.4.4":
+"@babel/plugin-transform-template-literals@^7.0.0":
   version "7.4.4"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-template-literals/-/plugin-transform-template-literals-7.4.4.tgz#9d28fea7bbce637fb7612a0750989d8321d4bcb0"
   integrity sha1-nSj+p7vOY3+3YSoHUJidgyHUvLA=
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.0.0"
-    "@babel/helper-plugin-utils" "^7.0.0"
-
-"@babel/plugin-transform-typeof-symbol@^7.2.0":
-  version "7.2.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-typeof-symbol/-/plugin-transform-typeof-symbol-7.2.0.tgz#117d2bcec2fbf64b4b59d1f9819894682d29f2b2"
-  integrity sha1-EX0rzsL79ktLWdH5gZiUaC0p8rI=
-  dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-transform-typescript@^7.0.0":
@@ -721,7 +587,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-typescript" "^7.2.0"
 
-"@babel/plugin-transform-unicode-regex@^7.0.0", "@babel/plugin-transform-unicode-regex@^7.6.2":
+"@babel/plugin-transform-unicode-regex@^7.0.0":
   version "7.6.2"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/plugin-transform-unicode-regex/-/plugin-transform-unicode-regex-7.6.2.tgz#b692aad888a7e8d8b1b214be6b9dc03d5031f698"
   integrity sha1-tpKq2Iin6NixshS+a53APVAx9pg=
@@ -729,62 +595,6 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/helper-regex" "^7.4.4"
     regexpu-core "^4.6.0"
-
-"@babel/preset-env@^7.3.1":
-  version "7.6.2"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/preset-env/-/preset-env-7.6.2.tgz#abbb3ed785c7fe4220d4c82a53621d71fc0c75d3"
-  integrity sha1-q7s+14XH/kIg1MgqU2IdcfwMddM=
-  dependencies:
-    "@babel/helper-module-imports" "^7.0.0"
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-proposal-async-generator-functions" "^7.2.0"
-    "@babel/plugin-proposal-dynamic-import" "^7.5.0"
-    "@babel/plugin-proposal-json-strings" "^7.2.0"
-    "@babel/plugin-proposal-object-rest-spread" "^7.6.2"
-    "@babel/plugin-proposal-optional-catch-binding" "^7.2.0"
-    "@babel/plugin-proposal-unicode-property-regex" "^7.6.2"
-    "@babel/plugin-syntax-async-generators" "^7.2.0"
-    "@babel/plugin-syntax-dynamic-import" "^7.2.0"
-    "@babel/plugin-syntax-json-strings" "^7.2.0"
-    "@babel/plugin-syntax-object-rest-spread" "^7.2.0"
-    "@babel/plugin-syntax-optional-catch-binding" "^7.2.0"
-    "@babel/plugin-transform-arrow-functions" "^7.2.0"
-    "@babel/plugin-transform-async-to-generator" "^7.5.0"
-    "@babel/plugin-transform-block-scoped-functions" "^7.2.0"
-    "@babel/plugin-transform-block-scoping" "^7.6.2"
-    "@babel/plugin-transform-classes" "^7.5.5"
-    "@babel/plugin-transform-computed-properties" "^7.2.0"
-    "@babel/plugin-transform-destructuring" "^7.6.0"
-    "@babel/plugin-transform-dotall-regex" "^7.6.2"
-    "@babel/plugin-transform-duplicate-keys" "^7.5.0"
-    "@babel/plugin-transform-exponentiation-operator" "^7.2.0"
-    "@babel/plugin-transform-for-of" "^7.4.4"
-    "@babel/plugin-transform-function-name" "^7.4.4"
-    "@babel/plugin-transform-literals" "^7.2.0"
-    "@babel/plugin-transform-member-expression-literals" "^7.2.0"
-    "@babel/plugin-transform-modules-amd" "^7.5.0"
-    "@babel/plugin-transform-modules-commonjs" "^7.6.0"
-    "@babel/plugin-transform-modules-systemjs" "^7.5.0"
-    "@babel/plugin-transform-modules-umd" "^7.2.0"
-    "@babel/plugin-transform-named-capturing-groups-regex" "^7.6.2"
-    "@babel/plugin-transform-new-target" "^7.4.4"
-    "@babel/plugin-transform-object-super" "^7.5.5"
-    "@babel/plugin-transform-parameters" "^7.4.4"
-    "@babel/plugin-transform-property-literals" "^7.2.0"
-    "@babel/plugin-transform-regenerator" "^7.4.5"
-    "@babel/plugin-transform-reserved-words" "^7.2.0"
-    "@babel/plugin-transform-shorthand-properties" "^7.2.0"
-    "@babel/plugin-transform-spread" "^7.6.2"
-    "@babel/plugin-transform-sticky-regex" "^7.2.0"
-    "@babel/plugin-transform-template-literals" "^7.4.4"
-    "@babel/plugin-transform-typeof-symbol" "^7.2.0"
-    "@babel/plugin-transform-unicode-regex" "^7.6.2"
-    "@babel/types" "^7.6.0"
-    browserslist "^4.6.0"
-    core-js-compat "^3.1.1"
-    invariant "^2.2.2"
-    js-levenshtein "^1.1.3"
-    semver "^5.5.0"
 
 "@babel/register@^7.0.0":
   version "7.6.2"
@@ -797,7 +607,7 @@
     pirates "^4.0.0"
     source-map-support "^0.5.9"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2":
+"@babel/runtime@^7.0.0":
   version "7.6.2"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@babel/runtime/-/runtime-7.6.2.tgz#c3d6e41b304ef10dcf13777a33e7694ec4a9a6dd"
   integrity sha1-w9bkGzBO8Q3PE3d6M+dpTsSppt0=
@@ -836,24 +646,6 @@
     esutils "^2.0.2"
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
-
-"@expo/vector-icons@^10.0.2":
-  version "10.0.6"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@expo/vector-icons/-/vector-icons-10.0.6.tgz#5718953ff0b97827d11dae5787976fa8ce5caaed"
-  integrity sha1-VxiVP/C5eCfRHa5Xh5dvqM5cqu0=
-  dependencies:
-    lodash "^4.17.4"
-
-"@expo/websql@^1.0.1":
-  version "1.0.1"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@expo/websql/-/websql-1.0.1.tgz#fff0cf9c1baa1f70f9e1d658b7c39a420d9b10a9"
-  integrity sha1-//DPnBuqH3D54dZYt8OaQg2bEKk=
-  dependencies:
-    argsarray "^0.0.1"
-    immediate "^3.2.2"
-    noop-fn "^1.0.0"
-    pouchdb-collections "^1.0.1"
-    tiny-queue "^0.2.1"
 
 "@react-native-community/cli@^1.2.1":
   version "1.11.2"
@@ -895,6 +687,20 @@
     xcode "^2.0.0"
     xmldoc "^0.4.0"
 
+"@react-native-firebase/app-types@6.0.3":
+  version "6.0.3"
+  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@react-native-firebase/app-types/-/app-types-6.0.3.tgz#a420ac2b8f274e9c638d4ef36350b1d9abcc1403"
+  integrity sha1-pCCsK48nTpxjjU7zY1Cx2avMFAM=
+
+"@react-native-firebase/app@^6.0.3":
+  version "6.0.3"
+  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@react-native-firebase/app/-/app-6.0.3.tgz#3c8b01587a374132fc0df14ebf2a24ae3369a992"
+  integrity sha1-PIsBWHo3QTL8DfFOvyokrjNpqZI=
+  dependencies:
+    "@react-native-firebase/app-types" "6.0.3"
+    opencollective-postinstall "^2.0.1"
+    superstruct "^0.6.2"
+
 "@react-navigation/core@^3.5.1":
   version "3.5.1"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@react-navigation/core/-/core-3.5.1.tgz#7a2339fca3496979305fb3a8ab88c2ca8d8c214d"
@@ -913,43 +719,6 @@
     hoist-non-react-statics "^3.0.1"
     react-native-safe-area-view "^0.14.1"
     react-native-screens "^1.0.0 || ^1.0.0-alpha"
-
-"@types/fbemitter@^2.0.32":
-  version "2.0.32"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@types/fbemitter/-/fbemitter-2.0.32.tgz#8ed204da0f54e9c8eaec31b1eec91e25132d082c"
-  integrity sha1-jtIE2g9U6cjq7DGx7skeJRMtCCw=
-
-"@types/invariant@^2.2.29":
-  version "2.2.30"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@types/invariant/-/invariant-2.2.30.tgz#20efa342807606ada5483731a8137cb1561e5fe9"
-  integrity sha1-IO+jQoB2Bq2lSDcxqBN8sVYeX+k=
-
-"@types/lodash.zipobject@^4.1.4":
-  version "4.1.6"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@types/lodash.zipobject/-/lodash.zipobject-4.1.6.tgz#75e140f44ac7d7682a18d3aae8ee4594fad094d7"
-  integrity sha1-deFA9ErH12gqGNOq6O5FlPrQlNc=
-  dependencies:
-    "@types/lodash" "*"
-
-"@types/lodash@*":
-  version "4.14.142"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@types/lodash/-/lodash-4.14.142.tgz#52d5daff878e36e72e299bb9c5871fd6aee55829"
-  integrity sha1-UtXa/4eONucuKZu5xYcf1q7lWCk=
-
-"@types/qs@^6.5.1":
-  version "6.5.3"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@types/qs/-/qs-6.5.3.tgz#1c3b71b091eaeaf5924538006b7f70603ce63d38"
-  integrity sha1-HDtxsJHq6vWSRTgAa39wYDzmPTg=
-
-"@types/uuid-js@^0.7.1":
-  version "0.7.2"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@types/uuid-js/-/uuid-js-0.7.2.tgz#5b5552fcbaaf4acf026fb6dc66f7e5bd6b4be92f"
-  integrity sha1-W1VS/LqvSs8Cb7bcZvflvWtL6S8=
-
-"@types/websql@^0.0.27":
-  version "0.0.27"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/@types/websql/-/websql-0.0.27.tgz#621a666a7f02018e7cbb4abab956a25736c27d71"
-  integrity sha1-Yhpman8CAY58u0q6uVaiVzbCfXE=
 
 "@unimodules/core@~4.0.0":
   version "4.0.0"
@@ -1083,11 +852,6 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
-argsarray@^0.0.1:
-  version "0.0.1"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/argsarray/-/argsarray-0.0.1.tgz#6e7207b4ecdb39b0af88303fa5ae22bda8df61cb"
-  integrity sha1-bnIHtOzbObCviDA/pa4ivajfYcs=
-
 arr-diff@^1.0.1:
   version "1.1.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/arr-diff/-/arr-diff-1.1.0.tgz#687c32758163588fef7de7b36fabe495eb1a399a"
@@ -1197,39 +961,10 @@ babel-plugin-dynamic-import-node@^2.3.0:
   dependencies:
     object.assign "^4.1.0"
 
-babel-plugin-module-resolver@^3.1.1:
-  version "3.2.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/babel-plugin-module-resolver/-/babel-plugin-module-resolver-3.2.0.tgz#ddfa5e301e3b9aa12d852a9979f18b37881ff5a7"
-  integrity sha1-3fpeMB47mqEthSqZefGLN4gf9ac=
-  dependencies:
-    find-babel-config "^1.1.0"
-    glob "^7.1.2"
-    pkg-up "^2.0.0"
-    reselect "^3.0.1"
-    resolve "^1.4.0"
-
-babel-plugin-react-native-web@^0.11.2:
-  version "0.11.7"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.11.7.tgz#15b578c0731bd7d65d334f9c759d95e8e4a602e2"
-  integrity sha1-FbV4wHMb19ZdM0+cdZ2V6OSmAuI=
-
 babel-plugin-syntax-trailing-function-commas@^7.0.0-beta.0:
   version "7.0.0-beta.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/babel-plugin-syntax-trailing-function-commas/-/babel-plugin-syntax-trailing-function-commas-7.0.0-beta.0.tgz#aa213c1435e2bffeb6fca842287ef534ad05d5cf"
   integrity sha1-qiE8FDXiv/62/KhCKH71NK0F1c8=
-
-babel-preset-expo@^7.0.0, babel-preset-expo@~7.0.0:
-  version "7.0.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/babel-preset-expo/-/babel-preset-expo-7.0.0.tgz#1d288e0efb17dcea84b0d30ce5f5ab99f781ae4a"
-  integrity sha1-HSiODvsX3OqEsNMM5fWrmfeBrko=
-  dependencies:
-    "@babel/core" "^7.1.0"
-    "@babel/plugin-proposal-decorators" "^7.1.0"
-    "@babel/plugin-transform-modules-commonjs" "^7.4.4"
-    "@babel/preset-env" "^7.3.1"
-    babel-plugin-module-resolver "^3.1.1"
-    babel-plugin-react-native-web "^0.11.2"
-    metro-react-native-babel-preset "^0.54.1"
 
 babel-preset-fbjs@^3.0.1, babel-preset-fbjs@^3.2.0:
   version "3.2.0"
@@ -1351,15 +1086,6 @@ braces@^2.3.1:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-browserslist@^4.6.0, browserslist@^4.6.6:
-  version "4.7.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/browserslist/-/browserslist-4.7.0.tgz#9ee89225ffc07db03409f2fee524dc8227458a17"
-  integrity sha1-nuiSJf/AfbA0CfL+5STcgidFihc=
-  dependencies:
-    caniuse-lite "^1.0.30000989"
-    electron-to-chromium "^1.3.247"
-    node-releases "^1.1.29"
-
 bser@^2.0.0:
   version "2.1.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/bser/-/bser-2.1.0.tgz#65fc784bf7f87c009b973c12db6546902fa9c7b5"
@@ -1367,28 +1093,10 @@ bser@^2.0.0:
   dependencies:
     node-int64 "^0.4.0"
 
-buffer-alloc-unsafe@^1.1.0:
-  version "1.1.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz#bd7dc26ae2972d0eda253be061dba992349c19f0"
-  integrity sha1-vX3CauKXLQ7aJTvgYdupkjScGfA=
-
-buffer-alloc@^1.1.0:
-  version "1.2.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/buffer-alloc/-/buffer-alloc-1.2.0.tgz#890dd90d923a873e08e10e5fd51a57e5b7cce0ec"
-  integrity sha1-iQ3ZDZI6hz4I4Q5f1RpX5bfM4Ow=
-  dependencies:
-    buffer-alloc-unsafe "^1.1.0"
-    buffer-fill "^1.0.0"
-
 buffer-crc32@^0.2.13:
   version "0.2.13"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
   integrity sha1-DTM+PwDqxQqhRUq9MO+MKl2ackI=
-
-buffer-fill@^1.0.0:
-  version "1.0.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/buffer-fill/-/buffer-fill-1.0.0.tgz#f8f78b76789888ef39f205cd637f68e702122b2c"
-  integrity sha1-+PeLdniYiO858gXNY39o5wISKyw=
 
 buffer-from@^1.0.0:
   version "1.1.1"
@@ -1438,11 +1146,6 @@ camelcase@^4.1.0:
   version "4.1.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
   integrity sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0=
-
-caniuse-lite@^1.0.30000989:
-  version "1.0.30000999"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/caniuse-lite/-/caniuse-lite-1.0.30000999.tgz#427253a69ad7bea4aa8d8345687b8eec51ca0e43"
-  integrity sha1-QnJTpprXvqSqjYNFaHuO7FHKDkM=
 
 capture-exit@^1.2.0:
   version "1.2.0"
@@ -1511,6 +1214,16 @@ cliui@^3.2.0:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
     wrap-ansi "^2.0.0"
+
+clone-deep@^2.0.1:
+  version "2.0.2"
+  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/clone-deep/-/clone-deep-2.0.2.tgz#00db3a1e173656730d1188c3d6aced6d7ea97713"
+  integrity sha1-ANs6Hhc2VnMNEYjD1qztbX6pdxM=
+  dependencies:
+    for-own "^1.0.0"
+    is-plain-object "^2.0.4"
+    kind-of "^6.0.0"
+    shallow-clone "^1.0.0"
 
 code-point-at@^1.0.0:
   version "1.1.0"
@@ -1629,14 +1342,6 @@ copy-descriptor@^0.1.0:
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-core-js-compat@^3.1.1:
-  version "3.2.1"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/core-js-compat/-/core-js-compat-3.2.1.tgz#0cbdbc2e386e8e00d3b85dc81c848effec5b8150"
-  integrity sha1-DL28LjhujgDTuF3IHISO/+xbgVA=
-  dependencies:
-    browserslist "^4.6.6"
-    semver "^6.3.0"
-
 core-js@^1.0.0:
   version "1.2.7"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
@@ -1680,7 +1385,7 @@ cross-spawn@^5.0.1, cross-spawn@^5.1.0:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-cross-spawn@^6.0.0, cross-spawn@^6.0.5:
+cross-spawn@^6.0.0:
   version "6.0.5"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
   integrity sha1-Sl7Hxk364iw6FBJNus3uhG2Ay8Q=
@@ -1810,11 +1515,6 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
-
-electron-to-chromium@^1.3.247:
-  version "1.3.277"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/electron-to-chromium/-/electron-to-chromium-1.3.277.tgz#38b7b297f9b3f67ea900a965c1b11a555de526ec"
-  integrity sha1-OLeyl/mz9n6pAKllwbEaVV3lJuw=
 
 encodeurl@~1.0.2:
   version "1.0.2"
@@ -1978,98 +1678,10 @@ expo-file-system@~7.0.0:
   dependencies:
     uuid-js "^0.7.5"
 
-expo-font@~7.0.0:
-  version "7.0.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/expo-font/-/expo-font-7.0.0.tgz#0b36f5c91a77eb718fb20559b2c0c58d762ba535"
-  integrity sha1-Czb1yRp363GPsgVZssDFjXYrpTU=
-  dependencies:
-    fontfaceobserver "^2.1.0"
-
-expo-keep-awake@~7.0.0:
-  version "7.0.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/expo-keep-awake/-/expo-keep-awake-7.0.0.tgz#131f56bc1ed8dd66e64a159afd7eaef26939d929"
-  integrity sha1-Ex9WvB7Y3WbmShWa/X6u8mk52Sk=
-
-expo-linear-gradient@~7.0.0:
-  version "7.0.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/expo-linear-gradient/-/expo-linear-gradient-7.0.0.tgz#91e86f3f4a70428c7ac5e43ee0d06215bca39afd"
-  integrity sha1-kehvP0pwQox6xeQ+4NBiFbyjmv0=
-
-expo-location@~7.0.0:
-  version "7.0.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/expo-location/-/expo-location-7.0.0.tgz#de5818f828354c681a173471e4dc25ec795a9b42"
-  integrity sha1-3lgY+Cg1TGgaFzRx5Nwl7Hlam0I=
-  dependencies:
-    invariant "^2.2.4"
-
 expo-permissions@~7.0.0:
   version "7.0.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/expo-permissions/-/expo-permissions-7.0.0.tgz#f4135c3cf8e49c673a9a714459a1eb2b40fe2092"
   integrity sha1-9BNcPPjknGc6mnFEWaHrK0D+IJI=
-
-expo-sqlite@~7.0.0:
-  version "7.0.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/expo-sqlite/-/expo-sqlite-7.0.0.tgz#f52585b342278b4034c06caac8384edb2531afa4"
-  integrity sha1-9SWFs0Ini0A0wGyqyDhO2yUxr6Q=
-  dependencies:
-    "@expo/websql" "^1.0.1"
-    "@types/websql" "^0.0.27"
-    lodash "^4.17.15"
-
-expo-web-browser@~7.0.0:
-  version "7.0.1"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/expo-web-browser/-/expo-web-browser-7.0.1.tgz#b64ef895b5c0604f312b64b085f7a2f1da630e20"
-  integrity sha1-tk74lbXAYE8xK2Swhfei8dpjDiA=
-
-expo@^35.0.0:
-  version "35.0.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/expo/-/expo-35.0.0.tgz#79649c9dbcc8bd2066d50642b30eebb55907ee4e"
-  integrity sha1-eWScnbzIvSBm1QZCsw7rtVkH7k4=
-  dependencies:
-    "@babel/runtime" "^7.1.2"
-    "@expo/vector-icons" "^10.0.2"
-    "@types/fbemitter" "^2.0.32"
-    "@types/invariant" "^2.2.29"
-    "@types/lodash.zipobject" "^4.1.4"
-    "@types/qs" "^6.5.1"
-    "@types/uuid-js" "^0.7.1"
-    "@unimodules/core" "~4.0.0"
-    "@unimodules/react-native-adapter" "~4.0.0"
-    babel-preset-expo "~7.0.0"
-    cross-spawn "^6.0.5"
-    expo-app-loader-provider "~7.0.0"
-    expo-asset "~7.0.0"
-    expo-constants "~7.0.0"
-    expo-file-system "~7.0.0"
-    expo-font "~7.0.0"
-    expo-keep-awake "~7.0.0"
-    expo-linear-gradient "~7.0.0"
-    expo-location "~7.0.0"
-    expo-permissions "~7.0.0"
-    expo-sqlite "~7.0.0"
-    expo-web-browser "~7.0.0"
-    fbemitter "^2.1.1"
-    invariant "^2.2.2"
-    lodash "^4.6.0"
-    md5-file "^3.2.3"
-    nullthrows "^1.1.0"
-    pretty-format "^23.6.0"
-    prop-types "^15.6.0"
-    qs "^6.5.0"
-    react-native-branch "~3.0.1"
-    react-native-view-shot "2.6.0"
-    serialize-error "^2.1.0"
-    unimodules-barcode-scanner-interface "~4.0.0"
-    unimodules-camera-interface "~4.0.0"
-    unimodules-constants-interface "~4.0.0"
-    unimodules-face-detector-interface "~4.0.0"
-    unimodules-file-system-interface "~4.0.0"
-    unimodules-font-interface "~4.0.0"
-    unimodules-image-loader-interface "~4.0.0"
-    unimodules-permissions-interface "~4.0.0"
-    unimodules-sensors-interface "~4.0.0"
-    unimodules-task-manager-interface "~4.0.0"
-    uuid-js "^0.7.5"
 
 extend-shallow@^1.1.2:
   version "1.1.4"
@@ -2140,13 +1752,6 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
-fbemitter@^2.1.1:
-  version "2.1.1"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/fbemitter/-/fbemitter-2.1.1.tgz#523e14fdaf5248805bb02f62efc33be703f51865"
-  integrity sha1-Uj4U/a9SSIBbsC9i78M75wP1GGU=
-  dependencies:
-    fbjs "^0.8.4"
-
 fbjs-css-vars@^1.0.0:
   version "1.0.2"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/fbjs-css-vars/-/fbjs-css-vars-1.0.2.tgz#216551136ae02fe255932c3ec8775f18e2c078b8"
@@ -2168,7 +1773,7 @@ fbjs-scripts@^1.0.0:
     semver "^5.1.0"
     through2 "^2.0.0"
 
-fbjs@^0.8.4, fbjs@^0.8.9:
+fbjs@^0.8.9:
   version "0.8.17"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
   integrity sha1-xNWY6taUkRJlPWWIsBpc3Nn5D90=
@@ -2241,14 +1846,6 @@ finalhandler@1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
-find-babel-config@^1.1.0:
-  version "1.2.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/find-babel-config/-/find-babel-config-1.2.0.tgz#a9b7b317eb5b9860cda9d54740a8c8337a2283a2"
-  integrity sha1-qbezF+tbmGDNqdVHQKjIM3oig6I=
-  dependencies:
-    json5 "^0.5.1"
-    path-exists "^3.0.0"
-
 find-cache-dir@^2.0.0:
   version "2.1.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/find-cache-dir/-/find-cache-dir-2.1.0.tgz#8d0f94cd13fe43c6c7c261a0d86115ca918c05f7"
@@ -2258,7 +1855,7 @@ find-cache-dir@^2.0.0:
     make-dir "^2.0.0"
     pkg-dir "^3.0.0"
 
-find-up@^2.0.0, find-up@^2.1.0:
+find-up@^2.0.0:
   version "2.1.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/find-up/-/find-up-2.1.0.tgz#45d1b7e506c717ddd482775a2b77920a3c0c57a7"
   integrity sha1-RdG35QbHF93UgndaK3eSCjwMV6c=
@@ -2272,10 +1869,10 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-fontfaceobserver@^2.1.0:
-  version "2.1.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/fontfaceobserver/-/fontfaceobserver-2.1.0.tgz#e2705d293e2c585a6531c2a722905657317a2991"
-  integrity sha1-4nBdKT4sWFplMcKnIpBWVzF6KZE=
+for-in@^0.1.3:
+  version "0.1.8"
+  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/for-in/-/for-in-0.1.8.tgz#d8773908e31256109952b1fdb9b3fa867d2775e1"
+  integrity sha1-2Hc5COMSVhCZUrH9ubP6hn0ndeE=
 
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
@@ -2286,6 +1883,13 @@ for-own@^0.1.4:
   version "0.1.5"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/for-own/-/for-own-0.1.5.tgz#5265c681a4f294dabbf17c9509b6763aa84510ce"
   integrity sha1-UmXGgaTylNq78XyVCbZ2OqhFEM4=
+  dependencies:
+    for-in "^1.0.1"
+
+for-own@^1.0.0:
+  version "1.0.0"
+  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/for-own/-/for-own-1.0.0.tgz#c63332f415cedc4b04dbfe70cf836494c53cb44b"
+  integrity sha1-xjMy9BXO3EsE2/5wz4NklMU8tEs=
   dependencies:
     for-in "^1.0.1"
 
@@ -2406,7 +2010,7 @@ glob-parent@^2.0.0:
   dependencies:
     is-glob "^2.0.0"
 
-glob@^7.1.1, glob@^7.1.2, glob@^7.1.3:
+glob@^7.1.1, glob@^7.1.3:
   version "7.1.4"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/glob/-/glob-7.1.4.tgz#aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
   integrity sha1-qmCKL2xXetNX4a5aXCbZqNGWklU=
@@ -2551,11 +2155,6 @@ image-size@^0.6.0:
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/image-size/-/image-size-0.6.3.tgz#e7e5c65bb534bd7cdcedd6cb5166272a85f75fb2"
   integrity sha1-5+XGW7U0vXzc7dbLUWYnKoX3X7I=
 
-immediate@^3.2.2:
-  version "3.2.3"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/immediate/-/immediate-3.2.3.tgz#d140fa8f614659bd6541233097ddaac25cdd991c"
-  integrity sha1-0UD6j2FGWb1lQSMwl92qwlzdmRw=
-
 import-fresh@^2.0.0:
   version "2.0.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/import-fresh/-/import-fresh-2.0.0.tgz#d81355c15612d386c61f9ddd3922d4304822a546"
@@ -2614,7 +2213,7 @@ inquirer@^3.0.6:
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
-invariant@^2.2.2, invariant@^2.2.4:
+invariant@^2.2.4:
   version "2.2.4"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
@@ -2869,11 +2468,6 @@ jest-worker@^24.0.0-alpha.6:
     merge-stream "^2.0.0"
     supports-color "^6.1.0"
 
-js-levenshtein@^1.1.3:
-  version "1.1.6"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/js-levenshtein/-/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
-  integrity sha1-xs7ljrNVA3LfjeuF+tXOZs4B1Z0=
-
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -2908,11 +2502,6 @@ json-stable-stringify@^1.0.1:
   integrity sha1-mnWdOcXy/1A/1TAGRu1EX4jE+a8=
   dependencies:
     jsonify "~0.0.0"
-
-json5@^0.5.1:
-  version "0.5.1"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/json5/-/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
-  integrity sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=
 
 json5@^2.1.0:
   version "2.1.1"
@@ -2964,7 +2553,7 @@ kind-of@^5.0.0:
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/kind-of/-/kind-of-5.1.0.tgz#729c91e2d857b7a419a1f9aa65685c4c33f5845d"
   integrity sha1-cpyR4thXt6QZofmqZWhcTDP1hF0=
 
-kind-of@^6.0.0, kind-of@^6.0.2:
+kind-of@^6.0.0, kind-of@^6.0.1, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha1-ARRrNqYhjmTljzqNZt5df8b20FE=
@@ -3029,7 +2618,7 @@ lodash.throttle@^4.1.1:
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
 
-lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@^4.5.0, lodash@^4.6.0, lodash@^4.6.1:
+lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.5, lodash@^4.3.0, lodash@^4.5.0, lodash@^4.6.1:
   version "4.17.15"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
@@ -3087,13 +2676,6 @@ math-random@^1.0.1:
   version "1.0.4"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/math-random/-/math-random-1.0.4.tgz#5dd6943c938548267016d4e34f057583080c514c"
   integrity sha1-XdaUPJOFSCZwFtTjTwV1gwgMUUw=
-
-md5-file@^3.2.3:
-  version "3.2.3"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/md5-file/-/md5-file-3.2.3.tgz#f9bceb941eca2214a4c0727f5e700314e770f06f"
-  integrity sha1-+bzrlB7KIhSkwHJ/XnADFOdw8G8=
-  dependencies:
-    buffer-alloc "^1.1.0"
 
 mem@4.0.0:
   version "4.0.0"
@@ -3171,13 +2753,6 @@ metro-babel7-plugin-react-transform@0.51.1:
   version "0.51.1"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/metro-babel7-plugin-react-transform/-/metro-babel7-plugin-react-transform-0.51.1.tgz#9cce2c340cc4006fc82aa6dfab27af22d592607e"
   integrity sha1-nM4sNAzEAG/IKqbfqyevItWSYH4=
-  dependencies:
-    "@babel/helper-module-imports" "^7.0.0"
-
-metro-babel7-plugin-react-transform@0.54.1:
-  version "0.54.1"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/metro-babel7-plugin-react-transform/-/metro-babel7-plugin-react-transform-0.54.1.tgz#5335b810284789724886dc483d5bde9c149a1996"
-  integrity sha1-UzW4EChHiXJIhtxIPVvenBSaGZY=
   dependencies:
     "@babel/helper-module-imports" "^7.0.0"
 
@@ -3304,48 +2879,6 @@ metro-react-native-babel-preset@0.51.1:
     "@babel/plugin-transform-unicode-regex" "^7.0.0"
     "@babel/template" "^7.0.0"
     metro-babel7-plugin-react-transform "0.51.1"
-    react-transform-hmr "^1.0.4"
-
-metro-react-native-babel-preset@^0.54.1:
-  version "0.54.1"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/metro-react-native-babel-preset/-/metro-react-native-babel-preset-0.54.1.tgz#b8f03865c381841d7f8912e7ba46804ea3a928b8"
-  integrity sha1-uPA4ZcOBhB1/iRLnukaATqOpKLg=
-  dependencies:
-    "@babel/plugin-proposal-class-properties" "^7.0.0"
-    "@babel/plugin-proposal-export-default-from" "^7.0.0"
-    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.0.0"
-    "@babel/plugin-proposal-object-rest-spread" "^7.0.0"
-    "@babel/plugin-proposal-optional-catch-binding" "^7.0.0"
-    "@babel/plugin-proposal-optional-chaining" "^7.0.0"
-    "@babel/plugin-syntax-dynamic-import" "^7.0.0"
-    "@babel/plugin-syntax-export-default-from" "^7.0.0"
-    "@babel/plugin-syntax-flow" "^7.2.0"
-    "@babel/plugin-transform-arrow-functions" "^7.0.0"
-    "@babel/plugin-transform-block-scoping" "^7.0.0"
-    "@babel/plugin-transform-classes" "^7.0.0"
-    "@babel/plugin-transform-computed-properties" "^7.0.0"
-    "@babel/plugin-transform-destructuring" "^7.0.0"
-    "@babel/plugin-transform-exponentiation-operator" "^7.0.0"
-    "@babel/plugin-transform-flow-strip-types" "^7.0.0"
-    "@babel/plugin-transform-for-of" "^7.0.0"
-    "@babel/plugin-transform-function-name" "^7.0.0"
-    "@babel/plugin-transform-literals" "^7.0.0"
-    "@babel/plugin-transform-modules-commonjs" "^7.0.0"
-    "@babel/plugin-transform-object-assign" "^7.0.0"
-    "@babel/plugin-transform-parameters" "^7.0.0"
-    "@babel/plugin-transform-react-display-name" "^7.0.0"
-    "@babel/plugin-transform-react-jsx" "^7.0.0"
-    "@babel/plugin-transform-react-jsx-source" "^7.0.0"
-    "@babel/plugin-transform-regenerator" "^7.0.0"
-    "@babel/plugin-transform-runtime" "^7.0.0"
-    "@babel/plugin-transform-shorthand-properties" "^7.0.0"
-    "@babel/plugin-transform-spread" "^7.0.0"
-    "@babel/plugin-transform-sticky-regex" "^7.0.0"
-    "@babel/plugin-transform-template-literals" "^7.0.0"
-    "@babel/plugin-transform-typescript" "^7.0.0"
-    "@babel/plugin-transform-unicode-regex" "^7.0.0"
-    "@babel/template" "^7.0.0"
-    metro-babel7-plugin-react-transform "0.54.1"
     react-transform-hmr "^1.0.4"
 
 metro-react-native-babel-transformer@0.51.0:
@@ -3568,6 +3101,14 @@ mixin-deep@^1.2.0:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
 
+mixin-object@^2.0.1:
+  version "2.0.1"
+  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/mixin-object/-/mixin-object-2.0.1.tgz#4fb949441dab182540f1fe035ba60e1947a5e57e"
+  integrity sha1-T7lJRB2rGCVA8f4DW6YOGUel5X4=
+  dependencies:
+    for-in "^0.1.3"
+    is-extendable "^0.1.1"
+
 mkdirp@^0.5.0, mkdirp@^0.5.1:
   version "0.5.1"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
@@ -3696,18 +3237,6 @@ node-pre-gyp@^0.12.0:
     rimraf "^2.6.1"
     semver "^5.3.0"
     tar "^4"
-
-node-releases@^1.1.29:
-  version "1.1.34"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/node-releases/-/node-releases-1.1.34.tgz#ced4655ee1ba9c3a2c5dcbac385e19434155fd40"
-  integrity sha1-ztRlXuG6nDosXcusOF4ZQ0FV/UA=
-  dependencies:
-    semver "^6.3.0"
-
-noop-fn@^1.0.0:
-  version "1.0.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/noop-fn/-/noop-fn-1.0.0.tgz#5f33d47f13d2150df93e0cb036699e982f78ffbf"
-  integrity sha1-XzPUfxPSFQ35PgywNmmemC94/78=
 
 nopt@^4.0.1:
   version "4.0.1"
@@ -3864,6 +3393,11 @@ onetime@^2.0.0:
   integrity sha1-BnQoIw/WdEOyeUsiu6UotoZ5YtQ=
   dependencies:
     mimic-fn "^1.0.0"
+
+opencollective-postinstall@^2.0.1:
+  version "2.0.2"
+  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"
+  integrity sha1-Vlfxvt5ptuM6RZObBh61PTxsOok=
 
 opn@^3.0.2:
   version "3.0.3"
@@ -4068,13 +3602,6 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
-pkg-up@^2.0.0:
-  version "2.0.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/pkg-up/-/pkg-up-2.0.0.tgz#c819ac728059a461cab1c3889a2be3c49a004d7f"
-  integrity sha1-yBmscoBZpGHKscOImivjxJoATX8=
-  dependencies:
-    find-up "^2.1.0"
-
 plist@^3.0.0, plist@^3.0.1:
   version "3.0.1"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/plist/-/plist-3.0.1.tgz#a9b931d17c304e8912ef0ba3bdd6182baf2e1f8c"
@@ -4100,11 +3627,6 @@ posix-character-classes@^0.1.0:
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
 
-pouchdb-collections@^1.0.1:
-  version "1.0.1"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/pouchdb-collections/-/pouchdb-collections-1.0.1.tgz#fe63a17da977611abef7cb8026cb1a9553fd8359"
-  integrity sha1-/mOhfal3YRq+98uAJssalVP9g1k=
-
 preserve@^0.2.0:
   version "0.2.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
@@ -4116,14 +3638,6 @@ pretty-format@24.0.0-alpha.6:
   integrity sha1-Ja0vpGs0LWJ4vyQcXSEU1DdvusE=
   dependencies:
     ansi-regex "^4.0.0"
-    ansi-styles "^3.2.0"
-
-pretty-format@^23.6.0:
-  version "23.6.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/pretty-format/-/pretty-format-23.6.0.tgz#5eaac8eeb6b33b987b7fe6097ea6a8a146ab5760"
-  integrity sha1-XqrI7razO5h7f+YJfqaooUarV2A=
-  dependencies:
-    ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
 
 private@^0.1.6:
@@ -4169,11 +3683,6 @@ pump@^3.0.0:
   dependencies:
     end-of-stream "^1.1.0"
     once "^1.3.1"
-
-qs@^6.5.0:
-  version "6.9.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/qs/-/qs-6.9.0.tgz#d1297e2a049c53119cb49cca366adbbacc80b409"
-  integrity sha1-0Sl+KgScUxGctJzKNmrbusyAtAk=
 
 query-string@^6.4.2:
   version "6.8.3"
@@ -4251,11 +3760,6 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha1-TxonOv38jzSIqMUWv9p4+HI1I2I=
 
-react-native-branch@~3.0.1:
-  version "3.0.1"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/react-native-branch/-/react-native-branch-3.0.1.tgz#5b07b61cbd290168cd3c3662e017ebe0f356d2ca"
-  integrity sha1-Wwe2HL0pAWjNPDZi4Bfr4PNW0so=
-
 react-native-gesture-handler@^1.4.1:
   version "1.4.1"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/react-native-gesture-handler/-/react-native-gesture-handler-1.4.1.tgz#c38d9e57637b95e221722a79f2bafac62e3aeb21"
@@ -4313,11 +3817,6 @@ react-native-unimodules@0.6.0:
     unimodules-permissions-interface "~4.0.0"
     unimodules-sensors-interface "~4.0.0"
     unimodules-task-manager-interface "~4.0.0"
-
-react-native-view-shot@2.6.0:
-  version "2.6.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/react-native-view-shot/-/react-native-view-shot-2.6.0.tgz#3b23675826f67658366352c4b97b59a6aded2f43"
-  integrity sha1-OyNnWCb2dlg2Y1LEuXtZpq3tL0M=
 
 react-native-web@^0.11.7:
   version "0.11.7"
@@ -4575,11 +4074,6 @@ requires-port@^1.0.0:
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
-reselect@^3.0.1:
-  version "3.0.1"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/reselect/-/reselect-3.0.1.tgz#efdaa98ea7451324d092b2b2163a6a1d7a9a2147"
-  integrity sha1-79qpjqdFEyTQkrKyFjpqHXqaIUc=
-
 resolve-from@^3.0.0:
   version "3.0.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
@@ -4590,7 +4084,7 @@ resolve-url@^0.2.1:
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.10.0, resolve@^1.3.2, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.8.1:
+resolve@^1.10.0, resolve@^1.3.2, resolve@^1.5.0, resolve@^1.8.1:
   version "1.12.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/resolve/-/resolve-1.12.0.tgz#3fc644a35c84a48554609ff26ec52b66fa577df6"
   integrity sha1-P8ZEo1yEpIVUYJ/ybsUrZvpXffY=
@@ -4708,11 +4202,6 @@ scheduler@^0.13.3:
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha1-qVT5Ma66UI0we78Gnv8MAclhFvc=
 
-semver@^6.3.0:
-  version "6.3.0"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
-  integrity sha1-7gpkyK9ejO6mdoexM3YeG+y9HT0=
-
 send@0.17.1:
   version "0.17.1"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/send/-/send-0.17.1.tgz#c1d8b059f7900f7466dd4938bdc44e11ddb376c8"
@@ -4771,6 +4260,15 @@ setprototypeof@1.1.1:
   version "1.1.1"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha1-fpWsskqpL1iF4KvvW6ExMw1K5oM=
+
+shallow-clone@^1.0.0:
+  version "1.0.0"
+  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/shallow-clone/-/shallow-clone-1.0.0.tgz#4480cd06e882ef68b2ad88a3ea54832e2c48b571"
+  integrity sha1-RIDNBuiC72iyrYij6lSDLixItXE=
+  dependencies:
+    is-extendable "^0.1.1"
+    kind-of "^5.0.0"
+    mixin-object "^2.0.1"
 
 shebang-command@^1.2.0:
   version "1.2.0"
@@ -5018,6 +4516,14 @@ strip-json-comments@~2.0.1:
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
+superstruct@^0.6.2:
+  version "0.6.2"
+  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/superstruct/-/superstruct-0.6.2.tgz#c5eb034806a17ff98d036674169ef85e4c7f6a1c"
+  integrity sha1-xesDSAahf/mNA2Z0Fp74Xkx/ahw=
+  dependencies:
+    clone-deep "^2.0.1"
+    kind-of "^6.0.1"
+
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
@@ -5080,11 +4586,6 @@ time-stamp@^1.0.0:
   version "1.1.0"
   resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/time-stamp/-/time-stamp-1.1.0.tgz#764a5a11af50561921b133f3b44e618687e0f5c3"
   integrity sha1-dkpaEa9QVhkhsTPztE5hhofg9cM=
-
-tiny-queue@^0.2.1:
-  version "0.2.1"
-  resolved "https://trendkite.jfrog.io/trendkite/api/npm/libs-frontend/tiny-queue/-/tiny-queue-0.2.1.tgz#25a67f2c6e253b2ca941977b5ef7442ef97a6046"
-  integrity sha1-JaZ/LG4lOyypQZd7XvdELvl6YEY=
 
 tmp@^0.0.33:
   version "0.0.33"
