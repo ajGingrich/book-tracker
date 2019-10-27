@@ -71,5 +71,6 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 
-# firebase perhaps temporary
+# firebase
 android/app/google-services.json
+ios/BookTracker/GoogleService-Info.plist
