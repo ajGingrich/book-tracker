@@ -7,7 +7,7 @@ import {
   View,
   Button,
 } from 'react-native';
-import firebase from '@react-native-firebase/app';
+import auth from '@react-native-firebase/auth';
 
 const SignUp = ({ navigation }) => {
   const [email, setEmail] = useState('');
@@ -15,8 +15,7 @@ const SignUp = ({ navigation }) => {
   const [errorMessage, setErrorMessage] = useState(null);
 
   const handleSignUp = () => {
-    firebase
-      .auth()
+    auth()
       .createUserWithEmailAndPassword(email, password)
       .then(() => navigation.navigate('Main'))
       .catch(error => setErrorMessage(error));

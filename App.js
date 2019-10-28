@@ -32,7 +32,7 @@ const StackNavigator = createStackNavigator({
   Loading: { screen: Loading },
   Login: { screen: Login },
   SignUp: { screen: SignUp },
-  Tab: {
+  Main: {
     screen: TabNavigator,
     navigationOptions: { header: <Header /> },
   },

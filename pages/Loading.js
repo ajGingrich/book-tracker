@@ -6,11 +6,11 @@ import {
   ActivityIndicator,
   StyleSheet,
 } from 'react-native';
-import firebase from '@react-native-firebase/app';
+import auth from '@react-native-firebase/auth';
 
 const Loading = ({ navigation }) => {
   useEffect(() => {
-    firebase.auth().onAuthStateChanged(user => {
+    auth().onAuthStateChanged(user => {
       navigation.navigate(user ? 'Main' : 'SignUp');
     });
   }, []);
