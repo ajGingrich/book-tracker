@@ -3,6 +3,12 @@ import { createAppContainer } from 'react-navigation';
 import { createMaterialTopTabNavigator } from 'react-navigation-tabs';
 import { createStackNavigator } from 'react-navigation-stack';
 
+// Login screens
+import Loading from './pages/Loading';
+import SignUp from './pages/SignUp';
+import Login from './pages/Login';
+
+// App screens
 import HomeScreen from './pages/HomeScreen';
 import ProfileScreen from './pages/ProfileScreen';
 import ConnectScreen from './pages/ConnectScreen';
@@ -23,7 +29,10 @@ const TabNavigator = createMaterialTopTabNavigator({
 });
 
 const StackNavigator = createStackNavigator({
-  Home: {
+  Loading: { screen: Loading },
+  Login: { screen: Login },
+  SignUp: { screen: SignUp },
+  Tab: {
     screen: TabNavigator,
     navigationOptions: { header: <Header /> },
   },
