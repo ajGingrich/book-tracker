@@ -7,6 +7,7 @@ target 'BookTracker' do
 
   # Pods for BookTracker
   pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
+	pod 'RNFBAuth', :path => '../node_modules/@react-native-firebase/auth'
 	pod 'React', :path => '../node_modules/react-native'
 	pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
 	pod 'Folly', :podspec => "../node_modules/react-native/third-party-podspecs/Folly.podspec"
